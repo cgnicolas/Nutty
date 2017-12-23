@@ -1,0 +1,59 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1504006833117-8886a355efbf?auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-position: center;
+  font-family: Dosis;
+  color: white;
+}
+
+html{
+  height: 100%;
+}
+
+.container {
+  text-align: center;
+}
+
+.content{
+  padding-top: 25%;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+.content h1 {
+  font-size: 5em;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+  font-size: 16px;
+  transition: .3s ease-out;
+  padding-top: 25px;
+  height: 75px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  background-color:white;
+  transition: .3s ease-in;
+}
+.navbar-default{
+  background-color: rgba(0,0,0,0.1);
+  border: none;
+  color: white;
+  height: 75px;
+}
+
+.navbar-toggle {
+  margin-top: 25px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 30px;
+  padding-top:25px;
+}
+
+hr {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
